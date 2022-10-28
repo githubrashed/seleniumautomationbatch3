@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Orange HrmLive Test Suite">
+    <test name="Orange Hrrms Live Test Cases">
+        <packages>
+            <package name="com.orangehrm"></package>
+            <package name="com.orangehrmlive"></package>
+        </packages>
+        <classes>
+            <class name="com.orangehrmlive.OrangeHrmLiveLoginWithTestNG">
+            </class>
+            <class name="com.orangehrm.OrangeHrmLogin">
+            </class>
+        </classes>
+    </test>
+</suite>
