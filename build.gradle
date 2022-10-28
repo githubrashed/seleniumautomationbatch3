@@ -13,8 +13,10 @@ dependencies {
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version: '4.4.0'
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.4.0'
     implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.2.3'
+    implementation group: 'com.thedeanda', name: 'lorem', version: '2.1'
+    testImplementation group: 'org.testng', name: 'testng', version: '7.5'
 }
 
 test {
-    useTestNG()
+  useTestNG()
 }
